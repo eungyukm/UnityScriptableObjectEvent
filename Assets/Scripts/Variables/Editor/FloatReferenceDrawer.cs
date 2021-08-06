@@ -27,7 +27,7 @@ namespace Comman.ScriptableObject.Variables
         {
             if (popupStyle == null)
             {
-                popupStyle = new GUIStyle(GUI.skin.GetStyle("PaneOption"));
+                popupStyle = new GUIStyle(GUI.skin.GetStyle("PaneOptions"));
                 popupStyle.imagePosition = ImagePosition.ImageOnly;
             }
 
