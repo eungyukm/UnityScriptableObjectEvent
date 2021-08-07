@@ -7,9 +7,9 @@ using UnityEngine.UIElements;
 namespace Comman.ScriptableObject.Variables
 {
     /// <summary>
-    /// PropertyDrawers µÎ °¡Áö ¿ëµµ
-    /// 1. Serializble Å¬·¡½ºÀÇ ¸ğµç ÀÎ½ºÅÏ½º¿¡ ´ëÇÑ GUI¸¦ »ç¿ëÀÚ Á¤ÀÇ ÇÔ
-    /// 2. PropertyAttribute¸¦ »ç¿ëÇÏ¿© ½ºÅ©¸³Æ® ±¸¼º¿øÀÇ GUI¸¦ »ç¿ëÀÚ Á¤ÀÇ ÇÔ
+    /// PropertyDrawers ë‘ ê°€ì§€ ìš©ë„
+    /// 1. Serializble í´ë˜ìŠ¤ì˜ ëª¨ë“  ì¸ìŠ¤í„´ìŠ¤ì— ëŒ€í•œ GUIë¥¼ ì‚¬ìš©ì ì •ì˜ í•¨
+    /// 2. PropertyAttributeë¥¼ ì‚¬ìš©í•˜ì—¬ ìŠ¤í¬ë¦½íŠ¸ êµ¬ì„±ì›ì˜ GUIë¥¼ ì‚¬ìš©ì ì •ì˜ í•¨
     /// </summary>
 
     [CustomPropertyDrawer(typeof(FloatReference))]

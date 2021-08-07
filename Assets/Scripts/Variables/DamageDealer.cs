@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Comman.ScriptableObject.Variables
 {
     /// <summary>
-    /// µ¥¹ÌÁö¸¦ ÁÙ ¼ö ÀÖ´Â °ÔÀÓ¿ÀºêÁ§Æ®¿¡ ºÙÀÌ´Â ½ºÅ©¸³Æ®
+    /// ë°ë¯¸ì§€ë¥¼ ì¤„ ìˆ˜ ìˆëŠ” ê²Œì„ì˜¤ë¸Œì íŠ¸ì— ë¶™ì´ëŠ” ìŠ¤í¬ë¦½íŠ¸
     /// </summary>
     public class DamageDealer : MonoBehaviour
     {

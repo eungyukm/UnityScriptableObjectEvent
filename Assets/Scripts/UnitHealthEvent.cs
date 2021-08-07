@@ -22,7 +22,7 @@ public class UnitHealthEvent : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("�浹!");
+        Debug.Log("충돌!");
         DamageDealer damage = other.gameObject.GetComponent<DamageDealer>();
         if(damage != null)
         {
