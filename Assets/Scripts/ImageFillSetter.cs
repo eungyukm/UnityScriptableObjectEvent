@@ -1,8 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using Comman.ScriptableObject.Variables;
+using Comman.SO;
 
 public class ImageFillSetter : MonoBehaviour
 {

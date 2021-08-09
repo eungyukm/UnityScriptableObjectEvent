@@ -1,10 +1,10 @@
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
 
-namespace Comman.ScriptableObject.Variables
+namespace Comman.SO
 {
     /// <summary>
     /// PropertyDrawers 두 가지 용도

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Comman.ScriptableObject.Variables
+namespace Comman.SO
 {
     /// <summary>
-    /// ë°ë¯¸ì§€ë¥¼ ì¤„ ìˆ˜ ìˆëŠ” ê²Œì„ì˜¤ë¸Œì íŠ¸ì— ë¶™ì´ëŠ” ìŠ¤í¬ë¦½íŠ¸
+    /// µ¥¹ÌÁö¸¦ ÁÙ ¼ö ÀÖ´Â °ÔÀÓ¿ÀºêÁ§Æ®¿¡ ºÙÀÌ´Â ½ºÅ©¸³Æ®
     /// </summary>
     public class DamageDealer : MonoBehaviour
     {

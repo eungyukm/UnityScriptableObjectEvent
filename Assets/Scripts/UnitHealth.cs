@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Comman.ScriptableObject.Variables;
+using Comman.SO;
 
 
 public class UnitHealth : MonoBehaviour
@@ -20,7 +20,7 @@ public class UnitHealth : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("충돌!");
+        Debug.Log("�浹!");
         DamageDealer damage = other.gameObject.GetComponent<DamageDealer>();
         if(damage != null)
         {

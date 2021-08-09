@@ -1,8 +1,8 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Comman.ScriptableObject.Variables
+namespace Comman.SO
 {
     public class VariableAudioTrigger : MonoBehaviour
     {

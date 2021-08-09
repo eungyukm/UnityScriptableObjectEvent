@@ -1,6 +1,6 @@
 using System;
 
-namespace Comman.ScriptableObject.Variables
+namespace Comman.SO
 {
     [Serializable]
     public class FloatReference
