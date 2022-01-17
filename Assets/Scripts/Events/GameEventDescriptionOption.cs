@@ -34,6 +34,7 @@ public class GameEventDescriptionOption : ScriptableObject
         }
     }
 
+    // 에셋을 생성하는 역할을 합니다.
     public static void CreateAsset()
     {
         var path = EditorUtility.SaveFilePanelInProject("설명 옵션 파일 저장", "GameEventDescriptionOption", "asset", "");
