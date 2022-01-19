@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class GameEventDescriptionOption : ScriptableObject
+public class GameEventDescriptionOptionSO : ScriptableObject
 {
     public int fontSize = 15;
     public bool locked = true;
@@ -44,7 +44,7 @@ public class GameEventDescriptionOption : ScriptableObject
             return;
         }
 
-        GameEventDescriptionOption asset = ScriptableObject.CreateInstance<GameEventDescriptionOption>();
+        GameEventDescriptionOptionSO asset = CreateInstance<GameEventDescriptionOptionSO>();
         AssetDatabase.CreateAsset(asset, path);
         AssetDatabase.SaveAssets();
         EditorGUIUtility.PingObject(asset);

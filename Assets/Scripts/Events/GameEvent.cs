@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +7,11 @@ public class GameEvent : ScriptableObject
 {
     private readonly List<GameEventListener> eventListeners =
         new List<GameEventListener>();
+
+#if UNITY_EDITOR
+    [HideInInspector]
+    public string description;
+#endif
 
     public void Raise()
     {

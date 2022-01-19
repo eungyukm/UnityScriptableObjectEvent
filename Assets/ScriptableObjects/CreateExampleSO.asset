@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 236f5449ba30fa94c91c05857c0d1eb7, type: 3}
-  m_Name: GameEventDescriptionOption
+  m_Script: {fileID: 11500000, guid: e30bd556d7e0efb4aabced7f97490c6a, type: 3}
+  m_Name: CreateExampleSO
   m_EditorClassIdentifier: 
-  fontSize: 15
-  locked: 1
-  tyingAreaHeight: 12
+  age: 0
